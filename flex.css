@@ -1,0 +1,64 @@
+.div1{
+			background-color: #fefbd8;
+			height: 30px;
+			text-align: center;
+		}
+.div{
+		background-color: skyblue;
+		height: 40px;
+		display: flex;
+		justify-content: flex-end;	
+		flex-wrap: wrap;
+
+	}
+.div2{
+		padding: 10px;
+	}	
+.h1{
+	background-color: skyblue;
+	display: flex;
+	flex-wrap: wrap;
+	}
+.div3{
+	
+	
+	display: flex;
+		justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+
+.zoom{
+	transition: transform .2s; 
+  
+  margin: 0 auto;
+}
+.zoom:hover{
+	transform: scale(1.5);
+}
+
+a:active{
+	color: blue;
+}
+a:hover{
+	color: red;
+}
+button:hover{
+	color: white;
+	background-color: white; 
+
+}
+.bg{
+	
+}
+.bg:hover{
+	background-color: black;
+	color: white;
+
+}
+.div4{
+	background-color: aquamarine;
+	display: flex;
+	justify-content: space-between;	
+	flex-wrap: wrap;
+}
